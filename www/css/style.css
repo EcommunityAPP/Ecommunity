@@ -1,0 +1,134 @@
+/* http://41.media.tumblr.com/d03348040f754d12e7f5cfed36c51f84/tumblr_n50hivVrW51ro87l9o1_1280.jpg */
+
+#a0-lock.a0-theme-default .a0-overlay.a0-active {
+  background-image: url('http://i.imgur.com/pomTv8s.jpg') !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  background-color: #464646 !important;
+}
+
+@media screen and (max-width: 480px) {
+  #a0-lock.a0-theme-default .a0-popup .a0-centrix .a0-panel {
+    background-image: url('http://i.imgur.com/pomTv8s.jpg') !important;
+  }
+}
+
+#a0-lock.a0-theme-default .a0-panel .a0-top-header {
+  background: rgb(146, 213, 162) !important;
+}
+
+button.a0-primary.a0-next {
+  background-color: #62AE74 !important;
+}
+
+/* Theme Color */
+
+/*custom is class added to ion-content*/
+ 
+.custom {
+  background-color: #3f4041 !important;
+ /* This sets the background color*/;
+}
+ 
+/*Set the background to transparent for ion-item*/
+.custom .item {
+  background-color: transparent;
+  border: none;
+   /*Removes all borders*/
+  border-top: 1px solid;
+   /*Top Border for each menu item*/
+  border-bottom: 2px solid;
+   /*Bottom border for each menu item*/
+  border-color: #666;
+   /*Sets colors for top and bottom border*/
+  color: white;
+    /*Text color for each item*/;
+}
+ 
+/*Changes the border for the last item*/
+.custom .item:last-child {
+  border-bottom: 1px solid #666;
+}
+
+.custom .item-complex .item-content, .dark .item-radio .item-content {
+  background-color: transparent;
+}
+ 
+/*Just makes the type white*/
+.custom h2,
+.custom h3,
+.custom p,
+.custom a {
+  color: white;
+  /*Text color for each item, overrides the color property above*/;
+}
+
+.bar.bar-stable {
+  border-color: #556B2F;
+  background-color: #9CCE44;
+  background-image: linear-gradient(0deg, #556B2F, #556B2F 50%, transparent 50%);
+  color: #444;
+}
+
+/*/
+
+/* Empty. Add your own CSS if you like */
+.meteo-head {
+  font-size: 80px;
+  color: #1192d3;
+  opacity: 0.7;
+}
+
+.meteo-detail {
+  background: rgb(88, 179, 224);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.padding-0-20 {
+  padding: 0 20px;
+}
+
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.mapboxgl-map {
+  overflow: inherit!important;
+}
+
+.bar-positive .button {
+  background-color: rgba(42, 98, 193, 0.85);
+}
+
+.button.button-facebook {
+  border-color: rgba(21, 51, 165, 0.12);
+  background-color: #45619D;
+  color: #fff;
+  transition: opacity 0.1s;
+}
+
+.button.button-facebook.active, .button.button-facebook.activated {
+  border-color: rgba(21, 51, 165, 0.12);
+  background-color: #4E6DB1;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1);
+  opacity: 0.6;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.leaflet-container a.leaflet-popup-close-button {
+  display: none;
+}
+
+.lol {
+  z-index: 1;
+}

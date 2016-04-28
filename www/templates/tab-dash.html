@@ -1,0 +1,102 @@
+<ion-view view-title="Ecommunity">
+  <ion-content>
+      <!-- Bootstrap -->
+	<script src="js/index.js"></script>
+	
+	<style>
+	.box {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+.flex-item {
+  margin: auto;
+}
+.box-col {
+  margin: 0;
+  padding: 0;
+}
+#box-1 {
+  background: rgb(212, 212, 212);
+  transition: width 1s, height 1s;
+  -webkit-animation: width 1s, height 1s;
+}
+#box-2 {
+  background: #47A7FF;
+  transition: width 1s, height 1s;
+  -webkit-animation: width 1s, height 1s;
+}
+#box-3 {
+  background: DarkOliveGreen;
+  transition: width 1s, height 1s;
+  -webkit-animation: width 1s, height 1s;
+}
+#box-4 {
+  background: #FFD800;
+  transition: width 1s, height 1s;
+  -webkit-animation: width 1s, height 1s;
+}
+.row {
+padding: 0px;
+}
+.col-xs-6 {
+    width: inherit;
+}
+h3, .h3 {
+    font-size: 1.75rem;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+	</style>
+
+    <div class="container-fluid">
+  <div class="row">
+    <div id="box-1-col" class="box-col col-xs-6">
+      <div id="box-2" class="box">
+        <div class="flex-item">
+          <i class="fa fa-tint fa-3x"></i><br>
+          <h3>Water</h3>
+        </div>
+      </div>
+    </div>
+    <div id="box-2-col" class="box-col col-xs-6">
+      <div id="box-4" class="box">
+        <div class="flex-item">
+          <i class="fa fa-sun-o fa-3x"></i><br>
+          <h3>Sun</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="box-3-col" class="box-col col-xs-6">
+      <div id="box-1" class="box">
+        <div class="flex-item">
+          <i class="fa fa-3x">&#9753;</i><br>
+          <h3>Wind</h3>
+        </div>
+      </div>
+    </div>
+    <div id="box-4-col" class="box-col col-xs-6">
+      <div id="box-3" class="box">
+        <div class="flex-item">
+          <i class="fa fa-tree fa-3x"></i><br>
+          <h3>Ground</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </ion-content>
+</ion-view>
